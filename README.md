@@ -1,51 +1,70 @@
-<img src="cover.png" width="200" align="right" />
+# Getting Started with Create React App
 
-# JavaScript Everywhere Web Application
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This repository contains code examples for the web application chapters of [_JavaScript Everywhere_](https://www.jseverywhere.io/) by Adam D. Scott, published by O'Reilly Media
+## Available Scripts
 
-## Getting Help
+In the project directory, you can run:
 
-The best place to get help is our Spectrum channel, [spectrum.chat/jseverywhere](https://spectrum.chat/jseverywhere).
+### `npm start`
 
-## Directory Structure
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- `/src` If you are following along with the book, this is the directory where you should perform your development.
-- `/solutions` This directory contains the solutions for each chapter. If you get stuck, these are available for you to consult.
-- `/final` This directory contains the final working project
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## To Run the Application
+### `npm test`
 
-When developing locally, you can start the app by running:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-npm run dev
-```
+### `npm run build`
 
-If you are interested running the completed application, you can run:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```
-npm run final
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Related Repositories
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [API 🗄️ ](https://github.com/javascripteverywhere/api)
-- [Mobile 🤳](https://github.com/javascripteverywhere/mobile)
-- [Desktop 🖥️](https://github.com/javascripteverywhere/desktop)
+### `npm run eject`
 
-## Code of Conduct
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-In the interest of fostering an open and welcoming environment, I pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation..
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-This project pledges to follow the [Contributor's Covenant](http://contributor-covenant.org/version/1/4/).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## License
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Copyright 2019 Adam D. Scott
+## Learn More
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
